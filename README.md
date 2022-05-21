@@ -1,1 +1,1 @@
-pytest trainig
+pytest training
