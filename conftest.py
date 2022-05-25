@@ -2,12 +2,15 @@ from selenium import webdriver
 from pytest import fixture
 import json
 
-json_file_path = 'test_data.json'
+json_file_path = r'C:\Users\szymo\venvs\frameworkenv\Scripts\test_data.json'
 
 def load_test_data(path):
     with open(path) as data_file:
         data = json.load(data_file)
         return data
+
+
+load_test_data(json_file_path)
 
 @fixture(scope='function')
 def chrome_browser():
