@@ -19,21 +19,3 @@ class MulitTests:
     def test_result4(self):
         time.sleep(5)
         print('Test number 4 completed')
-
-    def test_result5(self):
-        time.sleep(5)
-        print('Test number 5 completed')
-
-    def test_result6(self):
-        time.sleep(5)
-        print('Test number 6 completed')
-
-    def test_result7(self):
-        time.sleep(5)
-        print('Test number 7 completed')
-
-    def test_result8(self):
-        time.sleep(5)
-        print('Test number 8 completed')
-
-
